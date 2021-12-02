@@ -41,4 +41,4 @@ If you enjoyed the event, don't forget to [support the event](https://adventofco
 
 ## License 📄
 
-This code in this repository is licensed under the MIT License - see the [License](License) file for details
+This code in this repository is licensed under the MIT License - see the [License](LICENSE) file for details
