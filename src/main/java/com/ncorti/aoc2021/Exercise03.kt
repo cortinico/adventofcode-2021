@@ -1,7 +1,5 @@
 package com.ncorti.aoc2021
 
-import java.lang.Integer.*
-
 object Exercise03 {
 
     fun part1(): Int {
@@ -16,7 +14,7 @@ object Exercise03 {
                 if (count > input.size / 2) "${gamma}0" to "${epsilon}1"
                 else "${gamma}1" to "${epsilon}0"
             }
-            .let { (first, second) -> parseInt(first, 2) * parseInt(second, 2) }
+            .let { (first, second) -> first.toInt(2) * second.toInt(2) }
     }
 
     fun part2(): Int {
@@ -42,7 +40,7 @@ object Exercise03 {
                     }
                 newOxygen to newCo2
             }
-            .let { (first, second) -> parseInt(first[0], 2) * parseInt(second[0], 2) }
+            .let { (first, second) -> first[0].toInt(2) * second[0].toInt(2) }
     }
 }
 
